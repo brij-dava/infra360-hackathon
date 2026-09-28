@@ -456,3 +456,5 @@ export function calculateRepairVsReplace(
     economicSavingsOpportunity,
   };
 }
+
+export * from './seedData';
