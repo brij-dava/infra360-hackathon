@@ -1,0 +1,26 @@
+{
+  "name": "infra360-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "INFRA360 — Intelligent Infrastructure Asset Lifecycle & Intelligence Platform",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "dev:api": "npm run dev --workspace=apps/api",
+    "dev:web": "npm run dev --workspace=apps/web",
+    "build": "npm run build --workspaces",
+    "test": "npm run test --workspaces"
+  },
+  "keywords": [
+    "infrastructure",
+    "asset-management",
+    "cmdb",
+    "digital-twin",
+    "blast-radius",
+    "predictive-maintenance"
+  ],
+  "author": "INFRA360 Engineering Team",
+  "license": "MIT"
+}
